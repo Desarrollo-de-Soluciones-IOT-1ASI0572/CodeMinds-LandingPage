@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edugo - Seguridad en Movilidad Escolar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Edugo</div>
+            <ul>
+                <li><a href="#inicio" data-i18n="nav.inicio">Inicio</a></li>
+                <li><a href="#caracteristicas" data-i18n="nav.caracteristicas">Características</a></li>
+                <li><a href="#beneficios" data-i18n="nav.beneficios">Beneficios</a></li>
+                <li><a href="#contacto" data-i18n="nav.contacto">Contacto</a></li>
+            </ul>
+            <div class="language-selector">
+                <select id="language-select">
+                    <option value="es">Español</option>
+                    <option value="en">English</option>
+                    <option value="pt">Português</option>
+                </select>
+            </div>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1 data-i18n="hero.titulo">Seguridad Inteligente en el Transporte Escolar</h1>
+            <p data-i18n="hero.subtitulo">Monitoreo en tiempo real de la ubicación y seguridad de tus hijos</p>
+            <a href="#contacto" class="cta-button" data-i18n="hero.cta">Solicitar Demo</a>
+        </div>
+    </section>
+
+    <section id="caracteristicas" class="features">
+        <h2 data-i18n="caracteristicas.titulo">Características Principales</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <i class="fas fa-id-card"></i>
+                <h3 data-i18n="caracteristicas.rfid.titulo">Identificación RFID</h3>
+                <p data-i18n="caracteristicas.rfid.descripcion">Control de entrada y salida mediante pulseras RFID</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3 data-i18n="caracteristicas.gps.titulo">Rastreo GPS</h3>
+                <p data-i18n="caracteristicas.gps.descripcion">Monitoreo en tiempo real de la ubicación del transporte</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-bell"></i>
+                <h3 data-i18n="caracteristicas.notificaciones.titulo">Notificaciones</h3>
+                <p data-i18n="caracteristicas.notificaciones.descripcion">Alertas instantáneas a padres y conductores</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-tachometer-alt"></i>
+                <h3 data-i18n="caracteristicas.velocidad.titulo">Control de Velocidad</h3>
+                <p data-i18n="caracteristicas.velocidad.descripcion">Monitoreo de velocidad y rutas seguras</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios" class="benefits">
+        <h2 data-i18n="beneficios.titulo">Beneficios</h2>
+        <div class="benefits-container">
+            <div class="benefit-item">
+                <h3 data-i18n="beneficios.padres.titulo">Para Padres</h3>
+                <ul>
+                    <li data-i18n="beneficios.padres.items.0">Notificaciones en tiempo real</li>
+                    <li data-i18n="beneficios.padres.items.1">Control de entrada y salida</li>
+                    <li data-i18n="beneficios.padres.items.2">Rastreo de ubicación</li>
+                    <li data-i18n="beneficios.padres.items.3">Historial de viajes</li>
+                </ul>
+            </div>
+            <div class="benefit-item">
+                <h3 data-i18n="beneficios.escuelas.titulo">Para Escuelas</h3>
+                <ul>
+                    <li data-i18n="beneficios.escuelas.items.0">Control de asistencia automático</li>
+                    <li data-i18n="beneficios.escuelas.items.1">Reportes detallados</li>
+                    <li data-i18n="beneficios.escuelas.items.2">Gestión eficiente de rutas</li>
+                    <li data-i18n="beneficios.escuelas.items.3">Mayor seguridad</li>
+                </ul>
+            </div>
+            <div class="benefit-item">
+                <h3 data-i18n="beneficios.conductores.titulo">Para Conductores</h3>
+                <ul>
+                    <li data-i18n="beneficios.conductores.items.0">Identificación de alumnos</li>
+                    <li data-i18n="beneficios.conductores.items.1">Navegación asistida</li>
+                    <li data-i18n="beneficios.conductores.items.2">Control de velocidad</li>
+                    <li data-i18n="beneficios.conductores.items.3">Comunicación directa</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <h2 data-i18n="contacto.titulo">Contáctanos</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Nombre" data-i18n-placeholder="contacto.nombre" required>
+            <input type="email" placeholder="Email" data-i18n-placeholder="contacto.email" required>
+            <input type="tel" placeholder="Teléfono" data-i18n-placeholder="contacto.telefono" required>
+            <textarea placeholder="Mensaje" data-i18n-placeholder="contacto.mensaje" required></textarea>
+            <button type="submit" class="cta-button" data-i18n="contacto.enviar">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 data-i18n="footer.empresa">Edugo</h3>
+                <p data-i18n="footer.descripcion">Soluciones IoT para la movilidad escolar</p>
+            </div>
+            <div class="footer-section">
+                <h3 data-i18n="footer.contacto">Contacto</h3>
+                <p data-i18n="footer.email">Email: info@edugo.com</p>
+                <p data-i18n="footer.telefono">Tel: (123) 456-7890</p>
+            </div>
+            <div class="footer-section">
+                <h3 data-i18n="footer.redes">Síguenos</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 <span data-i18n="footer.empresa">Edugo</span>. <span data-i18n="footer.derechos">Todos los derechos reservados.</span></p>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
