@@ -1,11 +1,11 @@
 // Función para obtener el idioma del navegador
 function getBrowserLanguage() {
-    return navigator.language.split('-')[0] || 'es';
+    return navigator.language.split('-')[0] || 'en';
 }
 
 // Función para obtener el idioma guardado
 function getSavedLanguage() {
-    return localStorage.getItem('language') || getBrowserLanguage();
+    return localStorage.getItem('language') || 'en';
 }
 
 // Función para guardar el idioma seleccionado
