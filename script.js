@@ -1,6 +1,6 @@
 // Función para obtener el idioma del navegador
 function getBrowserLanguage() {
-    return navigator.language.split('-')[0] || 'en';
+    return 'en';
 }
 
 // Función para obtener el idioma guardado
