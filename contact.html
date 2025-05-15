@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edugo - Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Edugo</a>
+            <ul>
+                <li><a href="index.html#inicio" data-i18n="nav.inicio">Inicio</a></li>
+                <li><a href="index.html#caracteristicas" data-i18n="nav.caracteristicas">Características</a></li>
+                <li><a href="index.html#beneficios" data-i18n="nav.beneficios">Beneficios</a></li>
+                <li><a href="index.html#nosotros" data-i18n="nav.nosotros">Nosotros</a></li>
+                <li><a href="contact.html" data-i18n="nav.contacto">Contacto</a></li>
+            </ul>
+            <div class="language-selector">
+                <select id="language-select">
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                    <option value="pt">Português</option>
+                </select>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h2 data-i18n="contacto.titulo">Contáctanos</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Nombre" data-i18n-placeholder="contacto.nombre" required>
+            <input type="email" placeholder="Email" data-i18n-placeholder="contacto.email" required>
+            <input type="tel" placeholder="Teléfono" data-i18n-placeholder="contacto.telefono" required>
+            <textarea placeholder="Mensaje" data-i18n-placeholder="contacto.mensaje" required></textarea>
+            <button type="submit" class="cta-button" data-i18n="contacto.enviar">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 data-i18n="footer.empresa">Edugo</h3>
+                <p data-i18n="footer.descripcion">Soluciones IoT para la movilidad escolar</p>
+            </div>
+            <div class="footer-section">
+                <h3 data-i18n="footer.contacto">Contacto</h3>
+                <p data-i18n="footer.email">Email: info@edugo.com</p>
+                <p data-i18n="footer.telefono">Tel: (123) 456-7890</p>
+            </div>
+            <div class="footer-section">
+                <h3 data-i18n="footer.redes">Síguenos</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 <span data-i18n="footer.empresa">Edugo</span>. <span data-i18n="footer.derechos">Todos los derechos reservados.</span></p>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
