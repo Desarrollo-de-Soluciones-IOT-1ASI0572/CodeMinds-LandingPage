@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edugo - Nuestro Equipo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Edugo</a>
+            <ul>
+                <li><a href="index.html#inicio" data-i18n="nav.inicio">Inicio</a></li>
+                <li><a href="index.html#caracteristicas" data-i18n="nav.caracteristicas">Características</a></li>
+                <li><a href="index.html#beneficios" data-i18n="nav.beneficios">Beneficios</a></li>
+                <li><a href="index.html#nosotros" data-i18n="nav.nosotros">Nosotros</a></li>
+                <li><a href="contact.html" data-i18n="nav.contacto">Contacto</a></li>
+            </ul>
+            <div class="language-selector">
+                <select id="language-select">
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                    <option value="pt">Português</option>
+                </select>
+            </div>
+        </nav>
+    </header>
+
+    <section class="team-full">
+        <h2 data-i18n="team.titulo">Nuestro Equipo Completo</h2>
+        <div class="team-grid">
+            <!-- Primera Fila -->
+            <div class="team-card">
+                <div class="team-image">
+                    <img src="assets/team/placeholder.jpg" alt="CEO" data-i18n-alt="team.ceo.alt">
+                </div>
+                <h3 data-i18n="team.ceo.nombre">Nombre del CEO</h3>
+                <p class="position" data-i18n="team.ceo.cargo">CEO & Fundador</p>
+                <p class="description" data-i18n="team.ceo.descripcion">Breve descripción del CEO y su experiencia.</p>
+            </div>
+            <div class="team-card">
+                <div class="team-image">
+                    <img src="assets/team/placeholder.jpg" alt="CTO" data-i18n-alt="team.cto.alt">
+                </div>
+                <h3 data-i18n="team.cto.nombre">Nombre del CTO</h3>
+                <p class="position" data-i18n="team.cto.cargo">CTO</p>
+                <p class="description" data-i18n="team.cto.descripcion">Breve descripción del CTO y su experiencia.</p>
+            </div>
+            <div class="team-card">
+                <div class="team-image">
+                    <img src="assets/team/placeholder.jpg" alt="COO" data-i18n-alt="team.coo.alt">
+                </div>
+                <h3 data-i18n="team.coo.nombre">Nombre del COO</h3>
+                <p class="position" data-i18n="team.coo.cargo">COO</p>
+                <p class="description" data-i18n="team.coo.descripcion">Breve descripción del COO y su experiencia.</p>
+            </div>
+            <!-- Segunda Fila -->
+            <div class="team-card">
+                <div class="team-image">
+                    <img src="assets/team/placeholder.jpg" alt="CMO" data-i18n-alt="team.cmo.alt">
+                </div>
+                <h3 data-i18n="team.cmo.nombre">Nombre del CMO</h3>
+                <p class="position" data-i18n="team.cmo.cargo">CMO</p>
+                <p class="description" data-i18n="team.cmo.descripcion">Breve descripción del CMO y su experiencia.</p>
+            </div>
+            <div class="team-card">
+                <div class="team-image">
+                    <img src="assets/team/placeholder.jpg" alt="CFO" data-i18n-alt="team.cfo.alt">
+                </div>
+                <h3 data-i18n="team.cfo.nombre">Nombre del CFO</h3>
+                <p class="position" data-i18n="team.cfo.cargo">CFO</p>
+                <p class="description" data-i18n="team.cfo.descripcion">Breve descripción del CFO y su experiencia.</p>
+            </div>
+            <div class="team-card">
+                <div class="team-image">
+                    <img src="assets/team/placeholder.jpg" alt="HR" data-i18n-alt="team.hr.alt">
+                </div>
+                <h3 data-i18n="team.hr.nombre">Nombre del HR</h3>
+                <p class="position" data-i18n="team.hr.cargo">Director de Recursos Humanos</p>
+                <p class="description" data-i18n="team.hr.descripcion">Breve descripción del Director de HR y su experiencia.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 data-i18n="footer.empresa">Edugo</h3>
+                <p data-i18n="footer.descripcion">Soluciones IoT para la movilidad escolar</p>
+            </div>
+            <div class="footer-section">
+                <h3 data-i18n="footer.contacto">Contacto</h3>
+                <p data-i18n="footer.email">Email: info@edugo.com</p>
+                <p data-i18n="footer.telefono">Tel: (123) 456-7890</p>
+            </div>
+            <div class="footer-section">
+                <h3 data-i18n="footer.redes">Síguenos</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 <span data-i18n="footer.empresa">Edugo</span>. <span data-i18n="footer.derechos">Todos los derechos reservados.</span></p>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
