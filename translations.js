@@ -4,12 +4,17 @@ const translations = {
             inicio: "Inicio",
             caracteristicas: "Características",
             beneficios: "Beneficios",
+            nosotros: "Nosotros",
             contacto: "Contacto"
         },
         hero: {
             titulo: "Seguridad Inteligente en el Transporte Escolar",
             subtitulo: "Monitoreo en tiempo real de la ubicación y seguridad de tus hijos",
             cta: "Solicitar Demo"
+        },
+        action: {
+            titulo: "¿Listo para iniciar el viaje?",
+            cta: "Vamos!"
         },
         caracteristicas: {
             titulo: "Características Principales",
@@ -60,6 +65,67 @@ const translations = {
                 ]
             }
         },
+        nosotros: {
+            titulo: "Nuestro Equipo",
+            ver_mas: "Conoce a todo el equipo",
+            ceo: {
+                nombre: "Nombre del CEO",
+                cargo: "CEO & Fundador",
+                descripcion: "Breve descripción del CEO y su experiencia.",
+                alt: "Foto del CEO"
+            },
+            cto: {
+                nombre: "Nombre del CTO",
+                cargo: "CTO",
+                descripcion: "Breve descripción del CTO y su experiencia.",
+                alt: "Foto del CTO"
+            },
+            coo: {
+                nombre: "Nombre del COO",
+                cargo: "COO",
+                descripcion: "Breve descripción del COO y su experiencia.",
+                alt: "Foto del COO"
+            }
+        },
+        team: {
+            titulo: "Nuestro Equipo Completo",
+            ceo: {
+                nombre: "Nombre del CEO",
+                cargo: "CEO & Fundador",
+                descripcion: "Breve descripción del CEO y su experiencia.",
+                alt: "Foto del CEO"
+            },
+            cto: {
+                nombre: "Nombre del CTO",
+                cargo: "CTO",
+                descripcion: "Breve descripción del CTO y su experiencia.",
+                alt: "Foto del CTO"
+            },
+            coo: {
+                nombre: "Nombre del COO",
+                cargo: "COO",
+                descripcion: "Breve descripción del COO y su experiencia.",
+                alt: "Foto del COO"
+            },
+            cmo: {
+                nombre: "Nombre del CMO",
+                cargo: "CMO",
+                descripcion: "Breve descripción del CMO y su experiencia.",
+                alt: "Foto del CMO"
+            },
+            cfo: {
+                nombre: "Nombre del CFO",
+                cargo: "CFO",
+                descripcion: "Breve descripción del CFO y su experiencia.",
+                alt: "Foto del CFO"
+            },
+            hr: {
+                nombre: "Nombre del HR",
+                cargo: "Director de Recursos Humanos",
+                descripcion: "Breve descripción del Director de HR y su experiencia.",
+                alt: "Foto del Director de HR"
+            }
+        },
         contacto: {
             titulo: "Contáctanos",
             nombre: "Nombre",
@@ -84,12 +150,17 @@ const translations = {
             inicio: "Home",
             caracteristicas: "Features",
             beneficios: "Benefits",
+            nosotros: "About Us",
             contacto: "Contact"
         },
         hero: {
             titulo: "Smart School Transportation Security",
             subtitulo: "Real-time monitoring of your children's location and safety",
             cta: "Request Demo"
+        },
+        action: {
+            titulo: "Ready for the journey?",
+            cta: "Let's go!"
         },
         caracteristicas: {
             titulo: "Main Features",
@@ -140,6 +211,67 @@ const translations = {
                 ]
             }
         },
+        nosotros: {
+            titulo: "Our Team",
+            ver_mas: "Meet the full team",
+            ceo: {
+                nombre: "CEO Name",
+                cargo: "CEO & Founder",
+                descripcion: "Brief description of the CEO and their experience.",
+                alt: "CEO Photo"
+            },
+            cto: {
+                nombre: "CTO Name",
+                cargo: "CTO",
+                descripcion: "Brief description of the CTO and their experience.",
+                alt: "CTO Photo"
+            },
+            coo: {
+                nombre: "COO Name",
+                cargo: "COO",
+                descripcion: "Brief description of the COO and their experience.",
+                alt: "COO Photo"
+            }
+        },
+        team: {
+            titulo: "Our Complete Team",
+            ceo: {
+                nombre: "CEO Name",
+                cargo: "CEO & Founder",
+                descripcion: "Brief description of the CEO and their experience.",
+                alt: "CEO Photo"
+            },
+            cto: {
+                nombre: "CTO Name",
+                cargo: "CTO",
+                descripcion: "Brief description of the CTO and their experience.",
+                alt: "CTO Photo"
+            },
+            coo: {
+                nombre: "COO Name",
+                cargo: "COO",
+                descripcion: "Brief description of the COO and their experience.",
+                alt: "COO Photo"
+            },
+            cmo: {
+                nombre: "CMO Name",
+                cargo: "CMO",
+                descripcion: "Brief description of the CMO and their experience.",
+                alt: "CMO Photo"
+            },
+            cfo: {
+                nombre: "CFO Name",
+                cargo: "CFO",
+                descripcion: "Brief description of the CFO and their experience.",
+                alt: "CFO Photo"
+            },
+            hr: {
+                nombre: "HR Name",
+                cargo: "Human Resources Director",
+                descripcion: "Brief description of the HR Director and their experience.",
+                alt: "HR Director Photo"
+            }
+        },
         contacto: {
             titulo: "Contact Us",
             nombre: "Name",
@@ -164,12 +296,17 @@ const translations = {
             inicio: "Início",
             caracteristicas: "Características",
             beneficios: "Benefícios",
+            nosotros: "Sobre Nós",
             contacto: "Contato"
         },
         hero: {
             titulo: "Segurança Inteligente no Transporte Escolar",
             subtitulo: "Monitoramento em tempo real da localização e segurança dos seus filhos",
             cta: "Solicitar Demo"
+        },
+        action: {
+            titulo: "Pronto para começar a jornada?",
+            cta: "Vamos!"
         },
         caracteristicas: {
             titulo: "Características Principais",
@@ -218,6 +355,67 @@ const translations = {
                     "Controle de velocidade",
                     "Comunicação direta"
                 ]
+            }
+        },
+        nosotros: {
+            titulo: "Nossa Equipe",
+            ver_mas: "Conheça toda a equipe",
+            ceo: {
+                nombre: "Nome do CEO",
+                cargo: "CEO & Fundador",
+                descripcion: "Breve descrição do CEO e sua experiência.",
+                alt: "Foto do CEO"
+            },
+            cto: {
+                nombre: "Nome do CTO",
+                cargo: "CTO",
+                descripcion: "Breve descrição do CTO e sua experiência.",
+                alt: "Foto do CTO"
+            },
+            coo: {
+                nombre: "Nome do COO",
+                cargo: "COO",
+                descripcion: "Breve descrição do COO e sua experiência.",
+                alt: "Foto do COO"
+            }
+        },
+        team: {
+            titulo: "Nossa Equipe Completa",
+            ceo: {
+                nombre: "Nome do CEO",
+                cargo: "CEO & Fundador",
+                descripcion: "Breve descrição do CEO e sua experiência.",
+                alt: "Foto do CEO"
+            },
+            cto: {
+                nombre: "Nome do CTO",
+                cargo: "CTO",
+                descripcion: "Breve descrição do CTO e sua experiência.",
+                alt: "Foto do CTO"
+            },
+            coo: {
+                nombre: "Nome do COO",
+                cargo: "COO",
+                descripcion: "Breve descrição do COO e sua experiência.",
+                alt: "Foto do COO"
+            },
+            cmo: {
+                nombre: "Nome do CMO",
+                cargo: "CMO",
+                descripcion: "Breve descrição do CMO e sua experiência.",
+                alt: "Foto do CMO"
+            },
+            cfo: {
+                nombre: "Nome do CFO",
+                cargo: "CFO",
+                descripcion: "Breve descrição do CFO e sua experiência.",
+                alt: "Foto do CFO"
+            },
+            hr: {
+                nombre: "Nome do RH",
+                cargo: "Diretor de Recursos Humanos",
+                descripcion: "Breve descrição do Diretor de RH e sua experiência.",
+                alt: "Foto do Diretor de RH"
             }
         },
         contacto: {
