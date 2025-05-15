@@ -71,13 +71,13 @@ const translations = {
             ceo: {
                 nombre: "Xiao Lian Li Zegarra",
                 cargo: "CEO & Fundador",
-                descripcion: "Estudiante de la carrera de Ingeniería de Software. Cuento con conocimiento en Desarrollo Web con Angular y en lenguajes de programacion.",
+                descripcion: "Estudiante de la carrera de Ingeniería de Software. Cuento con conocimiento en Desarrollo Web con Angular y en lenguajes de programacion como C++, C#, Python y Java.",
                 alt: "Foto del CEO"
             },
             cto: {
                 nombre: "Juan Diego Cueto Domignuez",
                 cargo: "CTO",
-                descripcion: "Estudiante de la UPC  con conocimientos en varios lenguajes de programación.",
+                descripcion: "Estudiante de la UPC  con conocimientos en varios lenguajes de programación como C++, C#, java y python.",
                 alt: "Foto del CTO"
             },
             coo: {
@@ -92,13 +92,13 @@ const translations = {
             ceo: {
                 nombre: "Xiao Lian Li Zegarra",
                 cargo: "CEO & Fundador",
-                descripcion: "Estudiante de la carrera de Ingeniería de Software. Cuenta con conocimiento en Desarrollo Web con Angular y en lenguajes de programacion.",
+                descripcion: "Estudiante de la carrera de Ingeniería de Software. Cuenta con conocimiento en Desarrollo Web con Angular y en lenguajes de programacion como C++, C#, Python y Java.",
                 alt: "Foto del CEO"
             },
             cto: {
                 nombre: "Juan Diego Cueto Domignuez",
                 cargo: "CTO",
-                descripcion: "Estudiante de la UPC  con conocimientos en varios lenguajes de programación.",
+                descripcion: "Estudiante de la UPC  con conocimientos en varios lenguajes de programación como C++, C#, java y python.",
                 alt: "Foto del CTO"
             },
             coo: {
@@ -122,7 +122,7 @@ const translations = {
             hr: {
                 nombre: "Paolo Del Carmen Martinez Villanueva",
                 cargo: "Director de Recursos Humanos",
-                descripcion: "Estudiante de la carrera de Ingeniería de Software.Cuenta con conocimientos en lenguajes de programación.",
+                descripcion: "Estudiante de la carrera de Ingeniería de Software.Cuenta con conocimientos en lenguajes de programación como  C++, C#, JavaScript, Python, HTML y CSS.",
                 alt: "Foto del Director de HR"
             }
         },
@@ -217,13 +217,13 @@ const translations = {
             ceo: {
                 nombre: "Xiao Lian Li Zegarra",
                 cargo: "CEO & Fundador",
-                descripcion: "Software Engineering student. He has experience in web development with Angular and programming languages.",
+                descripcion: "Software Engineering student. I have experience in web development with Angular and programming languages ​such as C++, C#, Python, and Java.",
                 alt: "CEO Photo"
             },
             cto: {
                 nombre: "Juan Diego Cueto Domignuez",
                 cargo: "CTO",
-                descripcion: "UPC student with knowledge of several programming languages.",
+                descripcion: "UPC student with knowledge of several programming languages ​such as C++, C#, Java, and Python..",
                 alt: "CTO Photo"
             },
             coo: {
@@ -238,13 +238,13 @@ const translations = {
             ceo: {
                 nombre: "Xiao Lian Li Zegarra",
                 cargo: "CEO & Fundador",
-                descripcion: "Software Engineering student. He has experience in web development with Angular and programming languages.",
+                descripcion: "Software Engineering student. I have experience in web development with Angular and programming languages ​such as C++, C#, Python, and Java.",
                 alt: "CEO Photo"
             },
             cto: {
                 nombre: "Juan Diego Cueto Domignuez",
                 cargo: "CTO",
-                descripcion: "UPC student with knowledge of several programming languages.",
+                descripcion: "UPC student with knowledge of several programming languages ​such as C++, C#, Java, and Python..",
                 alt: "CTO Photo"
             },
             coo: {
@@ -268,7 +268,7 @@ const translations = {
             hr: {
                 nombre: "Paolo Del Carmen Martinez Villanueva",
                 cargo: "Director de Recursos Humanos",
-                descripcion: "Software Engineering student. Has knowledge of programming languages.",
+                descripcion: "Software Engineering student. He has knowledge of programming languages ​​such as C++, C#, JavaScript, Python, HTML, and CSS.",
                 alt: "HR Director Photo"
             }
         },
@@ -361,60 +361,60 @@ const translations = {
             titulo: "Nossa Equipe",
             ver_mas: "Conheça toda a equipe",
             ceo: {
-                nombre: "Nome do CEO",
+                nombre: "Xiao Lian Li Zegarra",
                 cargo: "CEO & Fundador",
-                descripcion: "Breve descrição do CEO e sua experiência.",
+                descripcion: "Estudante de Engenharia de Software. Possui conhecimento em Desenvolvimento Web com Angular e linguagens de programação como C++, C#, Python e Java.",
                 alt: "Foto do CEO"
             },
             cto: {
-                nombre: "Nome do CTO",
+                nombre: "Juan Diego Cueto Domignuez",
                 cargo: "CTO",
-                descripcion: "Breve descrição do CTO e sua experiência.",
+                descripcion: "Estudante da UPC com conhecimento de diversas linguagens de programação, como C++, C#, Java e Python.",
                 alt: "Foto do CTO"
             },
             coo: {
-                nombre: "Nome do COO",
+                nombre: "Angel Cancho Corilla",
                 cargo: "COO",
-                descripcion: "Breve descrição do COO e sua experiência.",
+                descripcion: "Estudante de Engenharia de Software com experiência em projetos de software com aplicações web e mobile.",
                 alt: "Foto do COO"
             }
         },
         team: {
             titulo: "Nossa Equipe Completa",
             ceo: {
-                nombre: "Nome do CEO",
+                nombre: "Xiao Lian Li Zegarra",
                 cargo: "CEO & Fundador",
-                descripcion: "Breve descrição do CEO e sua experiência.",
+                descripcion: "Estudante de Engenharia de Software. Possui conhecimento em Desenvolvimento Web com Angular e linguagens de programação como C++, C#, Python e Java.",
                 alt: "Foto do CEO"
             },
             cto: {
-                nombre: "Nome do CTO",
+                nombre: "Juan Diego Cueto Domignuez",
                 cargo: "CTO",
-                descripcion: "Breve descrição do CTO e sua experiência.",
+                descripcion: "Estudante da UPC com conhecimento de diversas linguagens de programação, como C++, C#, Java e Python.",
                 alt: "Foto do CTO"
             },
             coo: {
-                nombre: "Nome do COO",
+                nombre: "Angel Cancho Corilla",
                 cargo: "COO",
-                descripcion: "Breve descrição do COO e sua experiência.",
+                descripcion: "Estudante de Engenharia de Software com experiência em projetos de software com aplicações web e mobile.",
                 alt: "Foto do COO"
             },
             cmo: {
-                nombre: "Nome do CMO",
+                nombre: "Marcelo Sebastian Ramirez Ramirez",
                 cargo: "CMO",
-                descripcion: "Breve descrição do CMO e sua experiência.",
+                descripcion: "Estudante de Engenharia de Software com experiência em desenvolvimento de páginas web, backends e aplicativos mobile.",
                 alt: "Foto do CMO"
             },
             cfo: {
-                nombre: "Nome do CFO",
+                nombre: "Scott Huachaca",
                 cargo: "CFO",
-                descripcion: "Breve descrição do CFO e sua experiência.",
+                descripcion: "Estudante da UPC com experiência em criação de aplicativos web e mobile.",
                 alt: "Foto do CFO"
             },
             hr: {
-                nombre: "Nome do RH",
+                nombre: "Paolo Del Carmen Martínez Villanueva",
                 cargo: "Diretor de Recursos Humanos",
-                descripcion: "Breve descrição do Diretor de RH e sua experiência.",
+                descripcion: "Estudante de Engenharia de Software. Possui conhecimento em linguagens de programação como C++, C#, JavaScript, Python, HTML e CSS.",
                 alt: "Foto do Diretor de RH"
             }
         },
