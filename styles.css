@@ -149,6 +149,24 @@ nav ul li a:hover {
     transform: translateY(-2px);
 }
 
+.nav-cta-button {
+    display: flex;
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    align-self: right;
+}
+
+.nav-cta-button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+
 /* Secciones */
 section {
     padding: clamp(3rem, 8vw, 5rem) 1rem;
