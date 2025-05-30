@@ -16,6 +16,10 @@ const translations = {
             titulo: "¿Listo para iniciar el viaje?",
             cta: "Vamos!"
         },
+        product: {
+            titulo: "Acerca de Edugo",
+            subtitulo: "Edugo es una plataforma de monitoreo y control de transporte, que utiliza tecnologias IoT para garantizar la seguridad y eficiencia en el transporte de estudiantes"
+        },
         caracteristicas: {
             titulo: "Características Principales",
             rfid: {
@@ -162,6 +166,10 @@ const translations = {
             titulo: "Ready for the journey?",
             cta: "Let's go!"
         },
+        product: {
+            titulo: "About Edugo",
+            subtitulo: "Edugo is a monitoring and control platform for transportation, utilizing IoT technologies to ensure safety and efficiency in student transportation"
+        },
         caracteristicas: {
             titulo: "Main Features",
             rfid: {
@@ -307,6 +315,10 @@ const translations = {
         action: {
             titulo: "Pronto para começar a jornada?",
             cta: "Vamos!"
+        },
+        product: {
+            titulo: "Sobre a Edugo",
+            subtitulo: "Edugo é uma plataforma de monitoramento e controle de transporte, que utiliza tecnologias IoT para garantir a segurança e eficiência no transporte de estudantes"
         },
         caracteristicas: {
             titulo: "Características Principais",

@@ -179,6 +179,25 @@ section h2 {
     color: var(--primary-color);
 }
 
+/* Productos */
+.about-product-title{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.about-product-subtitle {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px 0;
+}
+
 /* Características */
 .features {
     background-color: var(--light-bg);
