@@ -312,6 +312,8 @@ section h2 {
 /* Formulario de Contacto */
 .contact {
     background-color: var(--light-bg);
+    height: 80vh;
+    padding-top: 13vh;
 }
 
 #contact-form {
