@@ -198,6 +198,12 @@ section h2 {
     margin-top: 40px 0;
 }
 
+.team-video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0;
+}
 /* Características */
 .features {
     background-color: var(--light-bg);
