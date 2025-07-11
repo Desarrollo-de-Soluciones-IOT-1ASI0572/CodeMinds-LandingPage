@@ -147,6 +147,30 @@ const translations = {
             telefono: "Tel: (123) 456-7890",
             redes: "Síguenos",
             derechos: "Todos los derechos reservados."
+        },
+        plataformas: {
+            titulo: "Plataformas",
+            mobile: {
+                titulo: "App Móvil",
+                funciones: [
+                    "Monitoreo de ubicación en tiempo real",
+                    "Control de asistencia",
+                    "Notificaciones automáticas",
+                    "Gestión de viajes e historial",
+                    "Y mucho más"
+                ]
+            },
+            web: {
+                titulo: "App Web",
+                funciones: [
+                    "Dashboard de control",
+                    "Gráficos analíticos",
+                    "Listado de hijos y conductores",
+                    "Gestión de cuenta",
+                    "Y mucho más"
+                ]
+            },
+            saber_mas: "Saber más"
         }
     },
     en: {
@@ -297,6 +321,30 @@ const translations = {
             telefono: "Phone: (123) 456-7890",
             redes: "Follow Us",
             derechos: "All rights reserved."
+        },
+        plataformas: {
+            titulo: "Platforms",
+            mobile: {
+                titulo: "Mobile App",
+                funciones: [
+                    "Real-time location monitoring",
+                    "Attendance control",
+                    "Automatic notifications",
+                    "Trip and history management",
+                    "And much more"
+                ]
+            },
+            web: {
+                titulo: "Web App",
+                funciones: [
+                    "Control dashboard",
+                    "Analytical charts",
+                    "List of children and drivers",
+                    "Account management",
+                    "And much more"
+                ]
+            },
+            saber_mas: "Learn more"
         }
     },
     pt: {
@@ -447,6 +495,30 @@ const translations = {
             telefono: "Tel: (123) 456-7890",
             redes: "Siga-nos",
             derechos: "Todos os direitos reservados."
+        },
+        plataformas: {
+            titulo: "Plataformas",
+            mobile: {
+                titulo: "App Mobile",
+                funciones: [
+                    "Monitoramento de localização em tempo real",
+                    "Controle de presença",
+                    "Notificações automáticas",
+                    "Gestão de viagens e histórico",
+                    "E muito mais"
+                ]
+            },
+            web: {
+                titulo: "App Web",
+                funciones: [
+                    "Dashboard de controle",
+                    "Gráficos analíticos",
+                    "Lista de filhos e motoristas",
+                    "Gestão de conta",
+                    "E muito mais"
+                ]
+            },
+            saber_mas: "Saiba mais"
         }
     }
 }; 
